@@ -10,6 +10,15 @@
 pip install -r requirements.txt
 ```
 
+## Google検索APIの設定
+
+プロジェクトルートディレクトリに以下のファイルを用意してください。
+
+```.env
+API_KEY=<Google_Custom_Search_API_KEY>
+CX=<CX_KEY>
+```
+
 ## 実行方法
 
 このプロジェクトは、run.pyスクリプトを使用して実行します。このスクリプトは、引数として与えた検索語句でGoogleから画像を取得し、背景を白にして512px以上の正方形画像として保存します。保存先はdlfiles/ ディレクトリ以下の新たに作成されるサブディレクトリです。
